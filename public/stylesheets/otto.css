@@ -129,6 +129,7 @@ h1 {
 }
 
 .serif-text {
+  text-align: justify;
   font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Palatino;
   font-weight: normal;
   font-size: 1.8em;
