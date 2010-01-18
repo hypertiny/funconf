@@ -152,9 +152,9 @@ p.serif-text,
 }
 
 .serif-text .intro {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-family: "chennai-slab-1", "chennai-slab-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 /* THE BLOCK TYPES */
