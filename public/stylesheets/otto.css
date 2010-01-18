@@ -123,7 +123,7 @@ h1 {
 }
 
 .serif-text {
-  font-family: Palatino;
+  font-family: "kulturista-web-1","kulturista-web-2", Palatino;
   font-size: 1.8em;
   line-height: 1.4em;
   text-shadow: rgba(255,255,255,.25) 0px 1px 1px;
@@ -152,9 +152,9 @@ p.serif-text,
 }
 
 .serif-text .intro {
-  font-size: 1.4em;
-  font-family: "chennai-slab-1", "chennai-slab-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-size: 1.2em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 /* THE BLOCK TYPES */
