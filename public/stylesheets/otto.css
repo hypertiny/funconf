@@ -136,6 +136,10 @@ h1 {
   text-shadow: rgba(255,255,255,.25) 0px 1px 1px;
 }
 
+.serif-text.condensed {
+  line-height: 1.2em;
+}
+
 .serif-text strong {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
