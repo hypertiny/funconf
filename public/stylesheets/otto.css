@@ -167,7 +167,7 @@ p.serif-text,
 /* THE BLOCK TYPES */
 
 .block {
-  overflow: auto;
+  overflow: hidden;
   padding: 1em 2em;
 }
 
