@@ -169,6 +169,11 @@ p.serif-text,
   width: 48em;
 }
 
+.wide-load {
+  margin: 0 auto;
+  width: 72em;
+}
+
 .delineated {
   border: .25em dotted rgba(0,0,0,.1);
   border-width: .25em 0;
