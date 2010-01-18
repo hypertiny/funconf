@@ -123,6 +123,12 @@ h1 {
   font-size: 1.125em;
 }
 
+.plain-text .amp {
+  font-family: Palatino;
+  font-style: italic;
+  font-size: 1.125em;
+}
+
 .plain-text .intro {
   font-size: 1.125em;
   font-weight: bold;
