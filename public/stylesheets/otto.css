@@ -118,7 +118,7 @@ h1 {
 }
 
 .plain-text em {
-  font-family: Palatino;
+  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Palatino;
   font-style: italic;
   font-size: 1.125em;
 }
@@ -129,7 +129,8 @@ h1 {
 }
 
 .serif-text {
-  font-family: Palatino;
+  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Palatino;
+  font-weight: normal;
   font-size: 1.8em;
   line-height: 1.4em;
   text-shadow: rgba(255,255,255,.25) 0px 1px 1px;
