@@ -97,6 +97,7 @@ h1 {
 }
 
 .plain-text {
+  font-family: "chennai-slab-1", "chennai-slab-2";
   font-size: 1.4em;
   line-height: 1.6em;
   text-shadow: rgba(255,255,255,.25) 0px 1px 2px;
@@ -123,7 +124,7 @@ h1 {
 }
 
 .serif-text {
-  font-family: "chennai-slab-1", "chennai-slab-2", Palatino;
+  font-family: Palatino;
   font-size: 1.8em;
   line-height: 1.4em;
   text-shadow: rgba(255,255,255,.25) 0px 1px 1px;
