@@ -202,12 +202,13 @@ ul.speaker-list {
 }
 
 ul.speaker-list li {
-  display: inline;
+  display: block;
+  float: left;
+  padding: .35em;
 }
 
 ul.speaker-list li img {
   border: .5em solid rgb(225,100,11);
-  margin: 0 .3em;
   width: 10em;
   height: auto;
 }
@@ -227,6 +228,7 @@ ul.speaker-list li img {
 .wide-load {
   margin: 0 auto;
   width: 72em;
+  clear: both;
 }
 
 .wide-load .column {
