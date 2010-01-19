@@ -87,12 +87,15 @@ h1 {
 }
 
 h2 {
+  display: inline;
   font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Palatino;
-  font-size: 3.6em;
-  letter-spacing: -0.075;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: .25em;
   font-weight: normal;
-  font-style: italic;
   text-shadow: rgba(255,255,255,.45) 0px 1px 1px;
+  border: .10em solid rgba(255,255,255,.175);
+  border-width: 0 0 .10em;
 }
 
 /* A POTPURRI OF TEXT */
@@ -203,7 +206,7 @@ ul.speaker-list li {
 }
 
 ul.speaker-list li img {
-  border: .5em solid rgb(255,238,226);
+  border: .5em solid rgb(225,100,11);
   margin: 0 .3em;
   width: 10em;
   height: auto;
