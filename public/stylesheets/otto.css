@@ -218,6 +218,22 @@ p.serif-text,
   font-weight: bold;
 }
 
+/* SPONSOR-LIST */
+
+ul.sponsor-list {
+  text-align: center;
+}
+
+ul.sponsor-list li {
+  display: inline;
+  padding: 0 .35em;
+}
+
+ul.sponsor-list li img {
+  width: 24em;
+  height: auto;
+}
+
 /* SPEAKER-LIST */
 
 ul.speaker-list {
