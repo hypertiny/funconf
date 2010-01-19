@@ -129,7 +129,6 @@ h1 {
 }
 
 .serif-text {
-  text-align: justify;
   font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Palatino;
   font-weight: normal;
   font-size: 1.8em;
@@ -167,6 +166,23 @@ p.serif-text,
   font-size: 1.2em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
+}
+
+/* SPEAKER-LIST */
+
+ul.speaker-list {
+  text-align: center;
+}
+
+ul.speaker-list li {
+  display: inline;
+  padding: .2em;
+}
+
+ul.speaker-list li img {
+  border: .6em solid rgb(224,106,27);
+  width: 10em;
+  height: auto;
 }
 
 /* THE BLOCK TYPES */
