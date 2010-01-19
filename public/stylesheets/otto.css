@@ -88,7 +88,7 @@ h1 {
 
 h2 {
   display: inline;
-  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Palatino;
+  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Palatino, Georgia, 'Times New Roman', serif;
   font-size: 1.8em;
   text-transform: uppercase;
   letter-spacing: .25em;
@@ -153,7 +153,7 @@ h4 {
 }
 
 .plain-text em {
-  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Palatino;
+  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Palatino, Georgia, 'Times New Roman', serif;
   font-style: italic;
   font-size: 1.125em;
 }
@@ -164,7 +164,7 @@ h4 {
 }
 
 .serif-text {
-  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Palatino;
+  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Palatino, Georgia, 'Times New Roman', serif;
   font-weight: normal;
   font-size: 1.6em;
   line-height: 1.4em;
@@ -209,13 +209,49 @@ p.serif-text,
 
 .serif-text .serif-intro strong {
   font-size: 1em;
-  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Palatino;
+  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Palatino, Georgia, 'Times New Roman', serif;
 }
 
 .serif-text .intro {
   font-size: 1.2em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
+}
+
+/* SPONSOR-LIST */
+
+ul.sponsor-list {
+  text-align: center;
+  margin-top: -2em;
+}
+
+ul.sponsor-list li {
+  display: inline;
+  padding: 0 .35em;
+}
+
+ul.sponsor-list li a, ul.sponsor-list li a:visited {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  text-indent: -9999em;
+  overflow: hiddden;
+  width: 24em;
+  height: auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center center;
+  width: 256px;
+  opacity: .75;
+}
+
+ul.sponsor-list li a:hover {
+  opacity: .85;
+}
+
+ul.sponsor-list li a.elc {
+  height: 92px;
+  background: url(/images/sponsors/elc.png);
 }
 
 /* SPEAKER-LIST */
@@ -241,7 +277,9 @@ ul.speaker-list li h4 {
 }
 
 ul.speaker-list li cite {
-  padding: .5em 0 0;
+  display: block;
+  padding: .35em 0 0;
+  font-weight: 400;
 }
 
 /* THE BLOCK TYPES */
@@ -341,10 +379,11 @@ ul.speaker-list li cite {
 /* bits of things */
 
 .amp {
-  font-family: Palatino;
+  font-family: Palatino, Baskerville, Georgia, 'Times New Roman', serif;
   font-style: italic;
   font-size: 1.125em;
 }
+
 
 .embellishment {
   display: block;
