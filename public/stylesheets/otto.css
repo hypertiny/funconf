@@ -175,8 +175,8 @@ ul.speaker-list {
 }
 
 ul.speaker-list li {
-  display: inline;
-  padding: .2em;
+  display: block;
+  padding: 0 0 1em 0;
 }
 
 ul.speaker-list li img {
@@ -200,6 +200,20 @@ ul.speaker-list li img {
 .wide-load {
   margin: 0 auto;
   width: 72em;
+}
+
+.wide-load .column {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.wide-load .one-third {
+  width: 24em;
+}
+
+.wide-load .two-third {
+  width: 48em;
 }
 
 .delineated {
