@@ -162,6 +162,11 @@ p.serif-text,
     margin-bottom: 1em;
 }
 
+.serif-text .serif-intro {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
 .serif-text .intro {
   font-size: 1.2em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -239,6 +244,10 @@ ul.speaker-list li img {
 
 .centered {
   text-align: center;
+}
+
+.card {
+  background: rgba(255,255,255,.5);
 }
 
 .dark-card {
