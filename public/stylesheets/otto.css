@@ -407,6 +407,17 @@ ul.speaker-list li cite {
   background: transparent url(../images/closer.png) center center no-repeat;
 }
 
+.bus-divider {
+  display: block;
+  margin: 0 auto;
+  width: 288px;
+  height: 24px;
+  text-decoration: none;
+  text-indent: -9999em;
+  overflow: hidden;
+  background: transparent url(../images/bus.png) center center repeat-x;
+}
+
 .divider {
   display: block;
   margin: 0 auto;
