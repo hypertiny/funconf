@@ -98,6 +98,15 @@ h2 {
   border-width: 0 0 .10em;
 }
 
+
+h4 {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgba(0,0,0,.8);
+  text-shadow: rgba(255,255,255,.25) 0px 1px 1px;
+}
+
 /* A POTPURRI OF TEXT */
 
 
@@ -106,6 +115,20 @@ h2 {
 .simple-text {
   font-size: 1.4em;
   text-shadow: rgba(255,255,255,.25) 0px 1px 1px;
+}
+
+.cite-text {
+  font-size: 1.1em;
+  text-shadow: rgba(255,255,255,.10) 0px 1px 1px;
+}
+
+.cite-text a, .cite-text a:visited {
+  text-decoration: none;
+  color: rgb(54,46,41);
+}
+
+.cite-text a:hover {
+  color: rgba(0,0,0,1);
 }
 
 .plain-text {
@@ -204,13 +227,21 @@ ul.speaker-list {
 ul.speaker-list li {
   display: block;
   float: left;
-  padding: .35em;
+  padding: 0 .35em 2em;
 }
 
 ul.speaker-list li img {
   border: .5em solid rgb(225,100,11);
   width: 10em;
   height: auto;
+}
+
+ul.speaker-list li h4 {
+  padding: .5em 0 0;
+}
+
+ul.speaker-list li cite {
+  padding: .5em 0 0;
 }
 
 /* THE BLOCK TYPES */
