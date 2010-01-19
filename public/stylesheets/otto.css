@@ -222,6 +222,7 @@ p.serif-text,
 
 ul.sponsor-list {
   text-align: center;
+  margin-top: -2em;
 }
 
 ul.sponsor-list li {
@@ -229,9 +230,28 @@ ul.sponsor-list li {
   padding: 0 .35em;
 }
 
-ul.sponsor-list li img {
+ul.sponsor-list li a, ul.sponsor-list li a:visited {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  text-indent: -9999em;
+  overflow: hiddden;
   width: 24em;
   height: auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center center;
+  width: 256px;
+  opacity: .75;
+}
+
+ul.sponsor-list li a:hover {
+  opacity: .85;
+}
+
+ul.sponsor-list li a.elc {
+  height: 92px;
+  background: url(/images/sponsors/elc.png);
 }
 
 /* SPEAKER-LIST */
@@ -257,7 +277,9 @@ ul.speaker-list li h4 {
 }
 
 ul.speaker-list li cite {
-  padding: .5em 0 0;
+  display: block;
+  padding: .35em 0 0;
+  font-weight: 400;
 }
 
 /* THE BLOCK TYPES */
