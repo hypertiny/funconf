@@ -132,7 +132,7 @@ h4 {
 }
 
 .plain-text {
-  font-size: 1.4em;
+  font-size: 1.6em;
   line-height: 1.6em;
   text-shadow: rgba(255,255,255,.25) 0px 1px 1px;
 }
@@ -276,29 +276,33 @@ ul.sponsor-list li a.elc {
 /* SPEAKER-LIST */
 
 ul.speaker-list {
-  text-align: center;
 }
 
 ul.speaker-list li {
   display: block;
-  float: left;
-  padding: 0 .35em 2em;
+  clear: both;
+  padding: 0 0 2em;
+  overflow: auto;
 }
 
 ul.speaker-list li img {
   border: .5em solid rgb(225,100,11);
-  width: 10em;
+  width: 5em;
+  float: left;
   height: auto;
+  margin-right: 1em;
 }
 
 ul.speaker-list li h4 {
-  padding: .5em 0 0;
+  font-size: 1.4em;
+  padding: 2em 0 0;
 }
 
 ul.speaker-list li cite {
   display: block;
-  padding: .35em 0 0;
+  padding: .5em 0 0;
   font-weight: 400;
+  font-size: 1.2em;
 }
 
 /* THE BLOCK TYPES */
