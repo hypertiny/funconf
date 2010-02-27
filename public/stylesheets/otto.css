@@ -74,14 +74,6 @@ em {
   padding: 0;
 }
 
-#content {
-  background: rgba(255,255,255,.85);
-}
-
-#footer {
-  
-}
-
 
 /* LET ME TELL YOU ABOUT MY PLAIN TEXT */
 
@@ -120,8 +112,27 @@ em {
 /* HEADER */
 
 #header {
-  background: transparent url(../images/header-bg.png) bottom center repeat-x;
+  background: transparent url(../images/distance-hills.png) bottom 5% repeat-x;
 }
+
+#header #hills {
+  top: 0;
+  background: transparent url(../images/hills.png) bottom 95% repeat-x;
+}
+
+#header #bus {
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  top: 11em;
+  left: 20%;
+  background: transparent url(../images/buses.png) bottom left no-repeat;
+}
+
+#header #header-content {
+  background: rgba(255,255,255,.15);
+}
+
 
 h1 {
   float: left;
@@ -129,7 +140,7 @@ h1 {
   overflow: hidden;
   text-decoration: none;
   width: 60.1em;
-  height: 13em;
+  height: 15em;
   background: transparent url(../images/h1.png) center 3em no-repeat;
 }
 
@@ -148,6 +159,7 @@ h1 {
   text-align: left;
 }
 
+
 /* FOOTER */
 
 #footer {
@@ -155,11 +167,45 @@ h1 {
 }
 
 
+/* CONTENT */
+
+#content {
+  background: rgba(255,255,255,.85);
+  border-top: 1px solid rgba(205,95,12,.65);
+  border-bottom: 1px solid rgba(205,95,12,.55);
+}
+
 /* THE BLOCK TYPES */
 
 .block {
   overflow: hidden;
   padding: 1em 2em;
+}
+
+.red-card {
+  border: 1px solid transparent;
+  border-top-color: rgba(0,0,0,.25);
+  border-bottom-color: rgba(255,255,255,.15);
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+  -webkit-border-radius: .5em;
+  background: rgb(205,95,12) url(../images/red-card.jpg) repeat;
+  color: rgba(255,255,255,.85);
+}
+
+.red-card .plain-text {
+  text-shadow: rgba(0,0,0,.25) 0px -1px 1px;
+}
+
+.red-card .plain-text a, .red-card .plain-text a:visited {
+  font-weight: bold;
+  color: rgba(255,255,255,.90);
+  text-shadow: rgba(0,0,0,.15) 0px 1px 1px;
+}
+
+.red-card .plain-text a:hover {
+  color: rgb(255,255,255);
+  text-shadow: rgba(0,0,0,.25) 0px 1px 1px;
 }
 
 .bound {
@@ -189,6 +235,18 @@ h1 {
 
 .right-float {
   float: right;
+}
+
+.major {
+  width: 53em;
+}
+
+.minor {
+  width: 33em;
+}
+
+.column {
+  float: left;
 }
 
 /* THE MISC STUFF */
