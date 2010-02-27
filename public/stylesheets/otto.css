@@ -56,7 +56,7 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 200;
 	font-size: 62.5%;
-	color: rgb(54,46,41);
+	color: rgba(54,46,41,.85);
 	line-height: 1.125em;
 	background: rgb(255,114,18) url(../images/bg.jpg) repeat;
 }
@@ -109,6 +109,64 @@ em {
   font-weight: bold;
 }
 
+
+/* YOU'RE GOING TO LOVE MY SERIF TEXT */
+
+.serif-text {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 1.8em;
+  line-height: 1.4em;
+  text-shadow: rgba(255,255,255,.25) 0px 1px 1px;
+}
+.serif-text.condensed {
+  line-height: 1.2em;
+}
+
+.serif-text strong {
+  font-weight: bold;
+}
+
+.serif-text .de-em {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	font-size: .9em;
+}
+
+.serif-text a, .serif-text a:visited {
+  text-decoration: none;
+	color: rgb(54,46,41);
+  font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.serif-text a:hover {
+  color: rgba(0,0,0,.9);
+}
+
+p.serif-text,
+.serif-text p,
+.serif-text ul {
+    margin-bottom: 1em;
+}
+
+.serif-text .serif-intro {
+  font-size: 1.3em;
+  line-height: 1.2em;
+}
+
+.serif-text .serif-intro strong {
+  font-size: 1em;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.serif-text .intro {
+  font-size: 1.2em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+
 /* HEADER */
 
 #header {
@@ -116,23 +174,31 @@ em {
 }
 
 #header #hills {
-  top: 0;
-  background: transparent url(../images/hills.png) bottom 95% repeat-x;
+  background: transparent url(../images/hills.png) bottom 90% repeat-x;
 }
 
 #header #bus {
   width: 300px;
-  height: 40px;
+  height: 5em;
   position: absolute;
-  top: 11em;
+  top: 10em;
   left: 20%;
+  z-index: 5;
   background: transparent url(../images/buses.png) bottom left no-repeat;
+}
+
+#header #foreground {
+  width: 100%;
+  height: 10em;
+  position: absolute;
+  top: 5em;
+  z-index: 6;
+  background: transparent url(../images/foreground.png) bottom 200% repeat-x;
 }
 
 #header #header-content {
   background: rgba(255,255,255,.15);
 }
-
 
 h1 {
   float: left;
@@ -147,6 +213,11 @@ h1 {
 #header .marquee {
   width: 12.95em;
   padding: 5em 0 0;
+  z-index: 9;
+}
+
+#header .marquee .plain-text {
+  color: rgb(54,46,41);
 }
 
 #header .marquee.presenters {
@@ -169,17 +240,21 @@ h1 {
 
 /* CONTENT */
 
-#content {
-  background: rgba(255,255,255,.85);
-  border-top: 1px solid rgba(205,95,12,.65);
-  border-bottom: 1px solid rgba(205,95,12,.55);
-}
-
 /* THE BLOCK TYPES */
 
 .block {
   overflow: hidden;
   padding: 1em 2em;
+}
+
+.light-card {
+  background: rgba(255,255,255,.85);
+  border-top: 1px solid rgba(205,95,12,.65);
+  border-bottom: 1px solid rgba(205,95,12,.55);
+}
+
+.light-card .plain-text {
+  text-shadow: rgb(255,255,255) 0px 1px 1px;
 }
 
 .red-card {
