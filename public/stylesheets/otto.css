@@ -149,7 +149,7 @@ p.serif-text,
 }
 
 .serif-text .loud {
-  font-size: 1.6em;
+  font-size: 1.4em;
   line-height: 1.3em;
 	color: rgba(54,46,41,.85);
   text-shadow: rgba(255,255,255,.8) 0px 1px 1px;
@@ -227,6 +227,40 @@ h1 {
 }
 
 
+/* NAVIGATION */
+
+div#navigation {
+  overflow: hidden;
+	background: rgba(255,255,255,.15);
+	padding: 0 2em;
+}
+
+div#navigation ul.navigation-list {
+}
+
+div#navigation ul.navigation-list li.navigation-item {
+  float: left;
+}
+
+div#navigation ul.navigation-list li.extra-item {
+  float: right;
+}
+
+div#navigation ul.navigation-list li a, div#navigation ul.navigation-list li a:visited {
+  display: block;
+  font-size: 1.4em;
+  padding: .75em .5em .75em .5em;
+  font-weight: 200;
+	color: rgba(54,46,41,.75);
+	text-decoration: none;
+}
+
+div#navigation ul.navigation-list li a:hover {
+  color: rgba(54,46,41,.95);
+	background: rgba(255,255,255,.15);
+}
+
+
 /* CONTENT */
 
 /* THE CARDS */
@@ -280,7 +314,10 @@ h1 {
   -moz-border-radius: .25em;
   border-radius: .25em;
   -webkit-border-radius: .25em;
-  background: rgba(255,255,255,.60)
+  background: rgba(255,255,255,.60);
+  box-shadow: .05em .05em .5em rgba(0,0,0,.1);
+  -webkit-box-shadow: .05em .05em .5em rgba(0,0,0,.1);
+  -moz-box-shadow: .05em .05em .5em rgba(0,0,0,.1);
 }
 
 /* THE BLOCK TYPES */
@@ -334,8 +371,9 @@ h1 {
 /* THE MISC STUFF */
 
 .askew {
-  -webkit-transform: rotate(.45deg);
-  -moz-transform: rotate(.45deg);
+  transform: rotate(.5deg);
+  -webkit-transform: rotate(.5deg);
+  -moz-transform: rotate(.5deg);
 }
 
 .shadow {
