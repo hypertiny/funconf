@@ -80,6 +80,7 @@ em {
 .plain-text {
   font-size: 1.6em;
   line-height: 1.6em;
+  font-weight: 400;
   text-shadow: rgba(255,255,255,.25) 0px 1px 1px;
 }
 
@@ -113,24 +114,16 @@ em {
 /* YOU'RE GOING TO LOVE MY SERIF TEXT */
 
 .serif-text {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, 'Times New Roman', serif;
   font-weight: normal;
   font-size: 1.8em;
   line-height: 1.4em;
+	color: rgba(54,46,41,.75);
   text-shadow: rgba(255,255,255,.25) 0px 1px 1px;
-}
-.serif-text.condensed {
-  line-height: 1.2em;
 }
 
 .serif-text strong {
   font-weight: bold;
-}
-
-.serif-text .de-em {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 200;
-	font-size: .9em;
 }
 
 .serif-text a, .serif-text a:visited {
@@ -150,20 +143,16 @@ p.serif-text,
     margin-bottom: 1em;
 }
 
-.serif-text .serif-intro {
+.serif-text .intro {
   font-size: 1.3em;
   line-height: 1.2em;
 }
 
-.serif-text .serif-intro strong {
-  font-size: 1em;
-  font-family: Georgia, 'Times New Roman', serif;
-}
-
-.serif-text .intro {
-  font-size: 1.2em;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bold;
+.serif-text .loud {
+  font-size: 1.6em;
+  line-height: 1.3em;
+	color: rgba(54,46,41,.85);
+  text-shadow: rgba(255,255,255,.8) 0px 1px 1px;
 }
 
 
@@ -240,21 +229,20 @@ h1 {
 
 /* CONTENT */
 
-/* THE BLOCK TYPES */
-
-.block {
-  overflow: hidden;
-  padding: 1em 2em;
-}
+/* THE CARDS */
 
 .light-card {
-  background: rgba(255,255,255,.85);
+  background: transparent url(../images/light-bg.png) repeat;
   border-top: 1px solid rgba(205,95,12,.65);
   border-bottom: 1px solid rgba(205,95,12,.55);
 }
 
 .light-card .plain-text {
-  text-shadow: rgb(255,255,255) 0px 1px 1px;
+  text-shadow: none;
+}
+
+.light-card .serif-text {
+  text-shadow: none;
 }
 
 .red-card {
@@ -283,6 +271,25 @@ h1 {
   text-shadow: rgba(0,0,0,.25) 0px 1px 1px;
 }
 
+.ragged-card {
+  padding: 2em 1em 1.5em;
+  border: 1px solid rgba(0,0,0,.10);
+  border-right-color: rgba(0,0,0,.15);
+  border-bottom-color: rgba(0,0,0,.19);
+  border-top-color: rgba(255,255,255,.15);
+  -moz-border-radius: .25em;
+  border-radius: .25em;
+  -webkit-border-radius: .25em;
+  background: rgba(255,255,255,.60)
+}
+
+/* THE BLOCK TYPES */
+
+.block {
+  overflow: hidden;
+  padding: 2em;
+}
+
 .bound {
   margin: 0 auto;
   width: 86em;
@@ -297,7 +304,7 @@ h1 {
 }
 
 .padded {
-  padding: 2em;
+  padding: 2em 2em 1em;
 }
 
 .centered {
@@ -326,7 +333,21 @@ h1 {
 
 /* THE MISC STUFF */
 
+.askew {
+  -webkit-transform: rotate(.45deg);
+  -moz-transform: rotate(.45deg);
+}
+
+.shadow {
+  margin: 0;
+  border: 0;
+  overflow: hidden;
+  padding: 0;
+  height: 16px;
+  background: transparent url(../images/shadow.png) center top no-repeat;
+}
+
 .amp {
   font-style: italic;
-  font-family: Palatino, Baskerville, 'Times New Roman';
+  font-family: Baskerville, Palatino, serif;
 }
