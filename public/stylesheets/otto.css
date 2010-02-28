@@ -168,28 +168,19 @@ p.serif-text,
 
 #header #bus {
   width: 300px;
-  height: 5em;
+  height: 4em;
   position: absolute;
-  top: 10em;
+  top: 11em;
   left: 20%;
   z-index: 5;
   background: transparent url(../images/buses.png) bottom left no-repeat;
-}
-
-#header #foreground {
-  width: 100%;
-  height: 10em;
-  position: absolute;
-  top: 5em;
-  z-index: 6;
-  background: transparent url(../images/foreground.png) bottom 200% repeat-x;
 }
 
 #header #header-content {
   background: rgba(255,255,255,.15);
 }
 
-h1 {
+h1 a, h1 a:visited {
   float: left;
   text-indent: -9999em;
   overflow: hidden;
@@ -197,6 +188,10 @@ h1 {
   width: 60.1em;
   height: 15em;
   background: transparent url(../images/h1.png) center 3em no-repeat;
+}
+
+h1 a:hover {
+  opacity: .95;
 }
 
 #header .marquee {
@@ -262,6 +257,78 @@ div#navigation ul.navigation-list li a:hover {
 
 
 /* CONTENT */
+
+/* Speaker List */
+
+ul.speaker-list {
+  width: 84em;
+  margin: 0 auto;
+}
+
+ul.speaker-list li {
+  float: left;
+  width: 42em;
+  margin: 1em 0;x
+}
+
+ul.speaker-list li.odd {
+  clear: left;
+}
+
+ul.speaker-list li.even {
+  clear: right;
+}
+
+ul.speaker-list li div.speaker {
+  margin: 0 1em;
+  padding: 2em;
+  overflow: hidden;
+}
+
+ul.speaker-list li div.speaker img {
+  float: left;
+  border: .5em solid rgb(232,165,119);
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+  -webkit-border-radius: .5em;
+  width: 9em;
+}
+
+ul.speaker-list li div.speaker .text {
+  padding: 0;
+  margin: 0 0 0 2em;
+  width: 24em;
+  float: left;
+}
+
+ul.speaker-list li div.speaker .text h4 {
+  display: block;
+  margin: 0 0 .35em;
+  font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, 'Times New Roman', serif;
+  font-size: 2.1em;
+  text-shadow: rgba(255,255,255,.5) 0px 1px 1px;
+}
+
+ul.speaker-list li div.speaker .text cite a, ul.speaker-list li div.speaker .text cite a:visited {
+  display: block;
+  margin: 0 0 .75em;
+  font-weight: 200;
+  font-size: 1.2em;
+  color: rgba(54,46,41,.65);
+  text-shadow: rgba(255,255,255,.25) 0px 1px 1px;
+  text-decoration: none;
+}
+
+ul.speaker-list li div.speaker .text cite a:hover {
+  color: rgba(54,46,41,.85);
+}
+
+ul.speaker-list li div.speaker .text .bio {
+  display: block;
+  font-weight: 200;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
 
 /* THE CARDS */
 
@@ -334,6 +401,10 @@ div#navigation ul.navigation-list li a:hover {
 
 .flush {
   padding: 1em 0;
+}
+
+.hugging {
+  padding: 0 2em 2em;
 }
 
 .tight {
