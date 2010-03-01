@@ -116,7 +116,7 @@ em {
 .serif-text {
   font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, 'Times New Roman', serif;
   font-weight: normal;
-  font-size: 1.8em;
+  font-size: 1.6em;
   line-height: 1.4em;
 	color: rgba(54,46,41,.75);
   text-shadow: rgba(255,255,255,.25) 0px 1px 1px;
@@ -149,7 +149,7 @@ p.serif-text,
 }
 
 .serif-text .loud {
-  font-size: 1.4em;
+  font-size: 1.8em;
   line-height: 1.3em;
 	color: rgba(54,46,41,.85);
   text-shadow: rgba(255,255,255,.8) 0px 1px 1px;
@@ -219,6 +219,42 @@ h1 a:hover {
 
 #footer {
   background: transparent url(../images/footer-bg.png) top center repeat-x;
+}
+
+/* sponsor-list */
+
+ul.sponsor-list {
+  text-align: center;
+  margin-top: -2em;
+}
+
+ul.sponsor-list li {
+  display: inline;
+  padding: 0 .35em;
+}
+
+ul.sponsor-list li a, ul.sponsor-list li a:visited {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  text-indent: -9999em;
+  overflow: hiddden;
+  width: 24em;
+  height: auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center center;
+  width: 256px;
+  opacity: .75;
+}
+
+ul.sponsor-list li a:hover {
+  opacity: .85;
+}
+
+ul.sponsor-list li a.elc {
+  height: 92px;
+  background: url(/images/sponsors/elc.png);
 }
 
 
@@ -373,7 +409,7 @@ ul.speaker-list li div.speaker .text .bio {
 }
 
 .ragged-card {
-  padding: 2em 1em 1.5em;
+  padding: 2em 3em 1.5em;
   border: 1px solid rgba(0,0,0,.10);
   border-right-color: rgba(0,0,0,.15);
   border-bottom-color: rgba(0,0,0,.19);
@@ -385,6 +421,12 @@ ul.speaker-list li div.speaker .text .bio {
   box-shadow: .05em .05em .5em rgba(0,0,0,.1);
   -webkit-box-shadow: .05em .05em .5em rgba(0,0,0,.1);
   -moz-box-shadow: .05em .05em .5em rgba(0,0,0,.1);
+}
+
+.ragged-card p {
+  transform: rotate(-.5deg);
+  -webkit-transform: rotate(-.5deg);
+  -moz-transform: rotate(-.5deg);
 }
 
 /* THE BLOCK TYPES */
@@ -440,6 +482,10 @@ ul.speaker-list li div.speaker .text .bio {
 }
 
 /* THE MISC STUFF */
+
+.quiet {
+  color: rgba(54,46,41,.65);
+}
 
 .askew {
   transform: rotate(.5deg);

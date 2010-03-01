@@ -1,10 +1,27 @@
 require 'rubygems'
 require 'sinatra'
+require 'erb'
 
 get '/' do
-  File.read("public/index.html")
+  erb :index
 end
 
 get '/speakers' do
-  File.read("public/speakers.html")
+  erb :speakers
+end
+
+get '/venue' do
+  erb :venue
+end
+
+get '/route' do
+  erb :route
+end
+
+get '/timetable' do
+  erb :timetable
+end
+
+get '/book' do
+  erb :book
 end
