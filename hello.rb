@@ -14,12 +14,8 @@ get '/venue' do
   erb :venue
 end
 
-get '/route' do
-  erb :route
-end
-
-get '/timetable' do
-  erb :timetable
+get '/itinerary' do
+  erb :itinerary
 end
 
 get '/book' do
