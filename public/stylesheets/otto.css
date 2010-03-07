@@ -75,6 +75,17 @@ em {
 }
 
 
+/* HEADERS */
+
+h3 {
+  display: block;
+  margin: 0 0 .4em;
+  font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, 'Times New Roman', serif;
+  font-size: 2.8em;
+  text-shadow: rgba(255,255,255,.4) 0px 1px 1px;
+}
+
+
 /* LET ME TELL YOU ABOUT MY PLAIN TEXT */
 
 .plain-text {
@@ -239,7 +250,6 @@ ul.sponsor-list li a, ul.sponsor-list li a:visited {
   text-decoration: none;
   text-indent: -9999em;
   overflow: hiddden;
-  width: 24em;
   height: auto;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -254,7 +264,12 @@ ul.sponsor-list li a:hover {
 
 ul.sponsor-list li a.elc {
   height: 92px;
-  background: url(/images/sponsors/elc.png);
+  background-image: url(/images/sponsors/elc.png);
+}
+
+ul.sponsor-list li a.ms {
+  height: 24px;
+  background-image: url(/images/sponsors/microsoft.png);
 }
 
 
