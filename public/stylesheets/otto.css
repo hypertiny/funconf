@@ -399,11 +399,11 @@ ul.speaker-list li div.speaker .text .bio {
 
 .red-card {
   border: 1px solid transparent;
-  border-top-color: rgba(0,0,0,.25);
-  border-bottom-color: rgba(255,255,255,.15);
-  -moz-border-radius: .5em;
-  border-radius: .5em;
-  -webkit-border-radius: .5em;
+  border-bottom-color: rgba(0,0,0,.25);
+  border-top-color: rgba(255,255,255,.15);
+  -moz-border-radius: .4em;
+  border-radius: .4em;
+  -webkit-border-radius: .4em;
   background: rgb(205,95,12) url(../images/red-card.jpg) repeat;
   color: rgba(255,255,255,.85);
 }
