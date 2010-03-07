@@ -309,6 +309,45 @@ div#navigation ul.navigation-list li a:hover {
 
 /* CONTENT */
 
+/* Itinerary */
+
+table.itinerary {
+  display: block;
+  width: 48em;
+	background: rgba(255,255,255,.15);
+  border: 1px solid rgba(0,0,0,.05);
+}
+
+table.itinerary tr {
+  display: block;
+  clear: both;
+  overflow: hidden;
+  border-top: 1px solid rgba(0,0,0,.05);
+}
+
+table.itinerary tr:first-child {
+  border: 0;
+}
+
+table.itinerary tr td {
+  float: left;
+  padding: 1.25em 1em 1em;
+}
+
+table.itinerary tr td.time {
+  background: rgb(205,95,12) url(../images/red-card.jpg) repeat;
+}
+
+table.itinerary tr td p {
+  font-size: 1.4em;
+}
+
+table.itinerary tr td.time p {
+  font-size: 1.8em;
+  color: rgba(255,255,255,.85);
+  font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, 'Times New Roman', serif;
+}
+
 /* Speaker List */
 
 ul.speaker-list {
@@ -379,6 +418,22 @@ ul.speaker-list li div.speaker .text .bio {
   font-weight: 200;
   font-size: 1.4em;
   line-height: 1.4em;
+}
+
+/* illustrations */
+
+ul.illustration-list {
+  padding: 4em 0 0;
+}
+
+ul.illustration-list li.illustration-item img {
+  margin: 0 0 1em;
+  float: left;
+  border: .5em solid rgb(232,165,119);
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+  -webkit-border-radius: .5em;
+  width: 25em;
 }
 
 /* THE CARDS */
