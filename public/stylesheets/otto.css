@@ -335,6 +335,7 @@ table.itinerary tr td {
 }
 
 table.itinerary tr td.time {
+  width: 6em;
   background: rgb(205,95,12) url(../images/red-card.jpg) repeat;
 }
 
@@ -343,6 +344,7 @@ table.itinerary tr td p {
 }
 
 table.itinerary tr td.time p {
+  text-align: center;
   font-size: 1.8em;
   color: rgba(255,255,255,.85);
   font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, 'Times New Roman', serif;
