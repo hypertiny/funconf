@@ -272,6 +272,11 @@ ul.sponsor-list li a.ms {
   background-image: url(/images/sponsors/microsoft.png);
 }
 
+ul.sponsor-list li a.github {
+  height: 45px;
+  background-image: url(/images/sponsors/github.png);
+}
+
 
 /* NAVIGATION */
 
