@@ -249,7 +249,7 @@ ul.sponsor-list li a, ul.sponsor-list li a:visited {
   margin: 0 auto;
   text-decoration: none;
   text-indent: -9999em;
-  overflow: hiddden;
+  overflow: hidden;
   height: auto;
   background-repeat: no-repeat;
   background-color: transparent;
