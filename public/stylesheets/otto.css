@@ -268,12 +268,16 @@ ul.sponsor-list li a.elc {
 }
 
 ul.sponsor-list li a.ms {
+  display: inline-block;
+  width: 121px;
   height: 24px;
   background-image: url(/images/sponsors/microsoft.png);
 }
 
 ul.sponsor-list li a.github {
-  height: 45px;
+  display: inline-block;
+  width: 59px;
+  height: 27px;
   background-image: url(/images/sponsors/github.png);
 }
 
