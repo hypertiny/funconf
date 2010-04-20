@@ -225,6 +225,10 @@ h1 a:hover {
   text-align: left;
 }
 
+#header .marquee.date strikethrough {
+  text-decoration: line-through;
+}
+
 
 /* FOOTER */
 
