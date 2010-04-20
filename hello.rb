@@ -21,3 +21,7 @@ end
 get '/book' do
   erb :book
 end
+
+get '/drinkup' do
+  erb :drinkup
+end
