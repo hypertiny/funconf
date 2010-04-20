@@ -253,7 +253,7 @@ ul.sponsor-list li a, ul.sponsor-list li a:visited {
   margin: 0 auto;
   text-decoration: none;
   text-indent: -9999em;
-  overflow: hiddden;
+  overflow: hidden;
   height: auto;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -272,12 +272,16 @@ ul.sponsor-list li a.elc {
 }
 
 ul.sponsor-list li a.ms {
+  display: inline-block;
+  width: 121px;
   height: 24px;
   background-image: url(/images/sponsors/microsoft.png);
 }
 
 ul.sponsor-list li a.github {
-  height: 45px;
+  display: inline-block;
+  width: 59px;
+  height: 27px;
   background-image: url(/images/sponsors/github.png);
 }
 
