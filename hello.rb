@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'erb'
+require 'quotes'
 
 get '/' do
   erb :index
@@ -23,5 +24,6 @@ get '/book' do
 end
 
 get '/drinkup' do
+  @quotes = []
   erb :drinkup
 end
