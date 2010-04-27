@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'sinatra'
 require 'erb'
-require 'quotes'
 
 get '/' do
   erb :index
