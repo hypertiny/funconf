@@ -593,3 +593,24 @@ ul.illustration-list li.illustration-item img {
   font-style: italic;
   font-family: Baskerville, Palatino, serif;
 }
+
+.quote {
+  padding: 2em 3em 1.5em;
+  border: 1px solid rgba(0,0,0,.10);
+  border-right-color: rgba(0,0,0,.15);
+  border-bottom-color: rgba(0,0,0,.19);
+  border-top-color: rgba(255,255,255,.15);
+  -moz-border-radius: .25em;
+  border-radius: .25em;
+  -webkit-border-radius: .25em;
+  background: rgba(255,255,255,.60);
+  box-shadow: .05em .05em .5em rgba(0,0,0,.1);
+  -webkit-box-shadow: .05em .05em .5em rgba(0,0,0,.1);
+  -moz-box-shadow: .05em .05em .5em rgba(0,0,0,.1);
+  text-align: right;
+}
+
+.quote q { text-align: left;}
+.quote q:before { content: "“"; }
+.quote q:after { content: "”"; }
+.quote q, .quote cite { display: block;}

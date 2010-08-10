@@ -23,5 +23,6 @@ get '/book' do
 end
 
 get '/drinkup' do
+  @quotes = []
   erb :drinkup
 end
