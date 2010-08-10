@@ -272,17 +272,19 @@ ul.sponsor-list li a.elc {
 }
 
 ul.sponsor-list li a.ms {
-  display: inline-block;
+  float:left;
+  margin-left:338px;
   width: 121px;
   height: 24px;
   background-image: url(/images/sponsors/microsoft.png);
 }
 
 ul.sponsor-list li a.github {
-  display: inline-block;
+  float:left;
   width: 59px;
   height: 27px;
   background-image: url(/images/sponsors/github.png);
+  margin-left:5px;
 }
 
 
