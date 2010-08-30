@@ -239,13 +239,14 @@ h1 a:hover {
 /* sponsor-list */
 
 ul.sponsor-list {
-  text-align: center;
-  margin-top: -2em;
+  width: 256px;
+  margin: -2em auto 0;
 }
 
 ul.sponsor-list li {
-  display: inline;
-  padding: 0 .35em;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 ul.sponsor-list li a, ul.sponsor-list li a:visited {
@@ -258,33 +259,76 @@ ul.sponsor-list li a, ul.sponsor-list li a:visited {
   background-repeat: no-repeat;
   background-color: transparent;
   background-position: center center;
-  width: 256px;
-  opacity: .75;
+  opacity: .8;
 }
 
 ul.sponsor-list li a:hover {
-  opacity: .85;
+  opacity: .9;
+}
+
+ul.sponsor-list li.left {
+  float: left;
+  clear: left;
+}
+
+ul.sponsor-list li.right {
+  float: right;
+  clear: right;
+}
+
+ul.sponsor-list li.big {
+  display: block;
+  float: none;
+  clear: both;
+  width: 256px;
+  height: 92px;
+}
+
+ul.sponsor-list li.big a {
+  width: 256px;
+  height: 92px;
+}
+
+ul.sponsor-list li.medium {
+  display: block;
+  width: 128px;
+  height: 27px;
+}
+
+ul.sponsor-list li.medium a {
+  width: 128px;
+  height: 27px;
+}
+
+ul.sponsor-list li.small {
+  display: block;
+  width: 128px;
+  height: 48px;
+}
+
+ul.sponsor-list li.small a {
+  width: 128px;
+  height: 48px;
 }
 
 ul.sponsor-list li a.elc {
-  height: 92px;
   background-image: url(/images/sponsors/elc.png);
 }
 
+ul.sponsor-list li a.github {
+  background-image: url(/images/sponsors/github.png);
+}
+
+ul.sponsor-list li a.engineyard {
+  background-image: url(/images/sponsors/engineyard.png);
+}
+
 ul.sponsor-list li a.ms {
-  float:left;
-  margin-left:338px;
-  width: 121px;
-  height: 24px;
   background-image: url(/images/sponsors/microsoft.png);
 }
 
-ul.sponsor-list li a.github {
-  float:left;
-  width: 59px;
-  height: 27px;
-  background-image: url(/images/sponsors/github.png);
-  margin-left:5px;
+ul.sponsor-list li a.ndrc {
+  background-image: url(/images/sponsors/ndrc.png);
 }
 
 
